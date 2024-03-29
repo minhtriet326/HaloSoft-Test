@@ -1,0 +1,94 @@
+/* PC */
+@media (max-width: 1500px) {
+    .navigation ul {
+        text-align: center;
+        margin: 0;
+    }
+}
+
+@media (max-width: 1223px) {
+    #oninsta .oninsta_slider .prev_slider {
+        transform: translate(50%, -50%);
+    }
+
+    #oninsta .oninsta_slider .next_slider {
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media (max-width: 1105px) {
+    .header_title_right .header_title_right-item {
+        display: flex;
+        text-align: center;
+    }
+
+    #header .header_title {
+        height: auto;
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 1035px) {
+    .navigation .nav li a {
+        padding: 0 12px;
+    }
+}
+
+@media (max-width: 817px) {
+    .navigation .nav li a {
+        padding: 0 24px;
+    }
+
+    #header .navigation {
+        height: auto;
+    }
+}
+
+@media (min-width: 764px ) and (max-width: 1035px) {
+    #banner .text_content {
+        bottom: 30%;
+        left: auto;
+        transform: translateX(-15%);
+    }
+
+    .newarrivals_products .clothes_container {
+        justify-content: space-around;
+    }
+}
+
+/* iPad Mini */
+
+@media (max-width: 768px) {
+    #header .navigation {
+        min-height: 46px;
+        /* height: 46px; */
+        position: relative;
+    }
+
+    #header .navigation .nav {
+        padding-top: 46px;
+    }
+
+    .navigation .button_menu {
+        display: block;
+    }
+
+    .navigation .nav li {
+        display: block;
+        text-align: left;
+    }
+
+    .footer_contact .newsletter {
+        min-width: 320px;
+    }
+
+/* Mobile */
+    
+}
+
+
+
+
+
+
+
